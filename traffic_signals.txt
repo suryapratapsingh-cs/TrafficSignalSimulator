@@ -1,0 +1,16 @@
+# Traffic Signal Simulator - configuration and saved state
+# EDGE = two roads whose movements conflict (cannot be green together)
+ROADS=North,East,South,West
+EDGE=North,East
+EDGE=East,South
+EDGE=South,West
+EDGE=West,North
+PHASES=North,East,South,West
+GREEN_TIME=30
+YELLOW_TIME=5
+ALL_RED_TIME=2
+
+# ---- saved state (auto-updated on exit) ----
+LAST_GREEN=North
+NORMAL_PHASES_SERVED=1
+EMERGENCIES_SERVED=0
